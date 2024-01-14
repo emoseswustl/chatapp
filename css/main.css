@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+.sendbutton {
+    width: 50px;
+}
+
+
+
+#adminhalf {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 95vh;
+    width: 30vw;
+}
+
+#chathalf {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 70vw;
+}   
+
+#chatlog {
+    height: 80vh;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 2vh;
+}
+
+#bottomalign {
+    
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+}
+
+#send {
+    width: 100%;
+    display: flex;
+}
+
+#send textarea {
+    resize: none;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-grow: 1;
+    height: auto;
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+  }
+

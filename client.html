@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Chatroom</title>
+    <link href="css/main.css" rel="stylesheet">
+    <script src="/socket.io/socket.io.js"></script>
+    <!-- IMPORT FONTAWESOME ICONS -->
+    <script src="https://kit.fontawesome.com/a8c41c703f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="adminhalf">
+        <div id="roomlist">
+            <h2>Chatroom Name</h2>
+        </div>
+        <div id="createroom">
+            <button id="roomadd">Create Room</button>
+        </div>
+        <div id="userlist">
+            <h3>Users in room:</h3>
+            <ul id="users"></ul>
+        </div>
+        
+    </div>
+    <div id="chathalf">
+        <h2 id = "chatroom-title">Default Room</h2>
+        <div id="bottomalign">
+            <div id="chatlog">
+            </div>
+            <div id="send">
+                <textarea id="message_input"></textarea>
+                <input type="file" id="imageInput" accept="image/*" hidden>
+                <button id="create-poll-button">Create Poll</button>
+                <button id="buttonid"><i class="fa-solid fa-image"></i></button>
+                
+                <button class ="sendbutton" onclick="sendMessage()"><i class="fa-solid fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="client.js"></script>
+</body>
+
+</html>

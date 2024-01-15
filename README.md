@@ -6,5 +6,3 @@ Karim Zaggoti, 509224, kzaggoti
 Creative portion:
  - Users can upload photos less than 1 MB
  - Users can create polls, where each person can vote on it only once, and everyone can view the results after poll creator closes poll
-
-I ran these codes using node.js on my device. But the page is not working. You should submit a regrade request.
